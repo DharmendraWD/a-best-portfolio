@@ -1,0 +1,164 @@
+
+
+
+
+
+
+
+
+@media(max-width: 1000px){
+.pickLine {
+    padding-right: 141px;
+}
+.nav-wrapper ul.nav-list li {
+    margin-left: 17px;
+    padding: 10px 0;
+}
+}
+
+
+@media(max-width:900px){
+    .pickLine {
+    padding-right: 53px;
+    width: 60%;
+}
+.brand strong{
+    font-size: 0.9rem;
+}
+.logo{
+    width: 40px;
+}
+.childContainer p {
+    padding: 1px 18px 1px 18px;
+}
+.childContainer_3 p {
+    padding: 1px 12px 1px 12px;
+}
+.myPortfolio {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+.aboutPara {
+    width: 71%;
+}
+}
+
+@media(max-width:859px){
+   .nav-wrapper{
+    position: fixed;
+    width: -webkit-fill-available;
+        background: var(--dark);
+        z-index: 1;
+}
+#devContainer {
+    top: 35vh;
+    }
+    .pickLine {
+    margin: 71px 0px 0px 50px;
+}
+.mobile .hamburger {
+    margin-right: 2%;
+}
+}
+
+@media(max-width:720px){
+    .pickLine {
+    padding-right: 0px;
+
+    width: 52%;
+}
+.container_2, .container_3 {
+    row-gap: 1.5rem;
+    column-gap: 0.5rem;
+}
+#devContainer {
+    top: 33vh;
+    letter-spacing: 2px;
+}
+}
+
+@media(max-width: 600px){
+    .pickLine {
+    width: 62%;
+    line-height: 1;
+}
+
+#devContainer {
+    top: 74vh;
+    letter-spacing: 1px;
+}
+.container_2 {
+    display: flex;
+    flex-direction: column;
+}
+.container_3 {
+    display: flex;
+    flex-direction: column;
+}
+.aboutMe {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.aboutPara {
+    width: 100%;
+    padding: 0px 12px 0px 12px;
+}
+.aboutPara_2 {
+    justify-items: center;
+}
+.skillImages {
+    width: 50px;
+}
+}
+
+@media (max-width: 500px) {
+    .pickLine {
+    width: 78%;
+    line-height: 1;
+     margin: 71px 0px 0px 12px;
+     width: 85%;
+}
+.sharma {
+    font-size: 2.4rem;
+}
+.here {
+    font-size: 1rem;
+}
+#devContainer {
+    top: 56vh;
+    letter-spacing: 0px;
+        margin-right: 7px;
+}
+.btn {
+    padding: 4px 0px;
+    width: 175px;
+}
+.childContainer_3 p {
+    margin-bottom: 23px;
+}
+.childContainer_3 {
+    border-radius: 22px;
+}
+    
+}
+@media(max-width: 354px){
+    #devContainer {
+    top: 70vh;
+
+}
+.pickLine {
+    margin: 71px 0px 0px 6px;
+    width: 94%;
+}
+}
+@media (max-width: 315px) {
+    .myPortfolio {
+    grid-template-columns: 2fr;
+}
+#devContainer {
+    top: 66vh;
+       color: #1f1f25;
+
+}
+}
